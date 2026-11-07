@@ -1,6 +1,6 @@
 # Mydesigner
 
-Skill do Claude Code que serve de **base de design e de ferramentas para criar novos projetos**, nascida do app **Recicle Uai** (Next.js, Tailwind, Phosphor, estilo Apple HIG com cartões Bento, botões cápsula e tema escuro padrão).
+Skill do Claude Code que serve de **base de design e de ferramentas para criar novos projetos** (Next.js, Tailwind, Phosphor, estilo Apple HIG com cartões Bento, botões cápsula e tema escuro padrão).
 
 Ao ser chamada, ela **pergunta o que você quer fazer** e só então age.
 
@@ -40,7 +40,6 @@ Para remover: `sh install.sh --remover`.
 | `acao` | `novo-projeto`, `tela`, `componente`, `ferramenta`, `revisao`, `mockup` | pergunta |
 | `nome` | nome do projeto, tela ou componente | pergunta |
 | `tema` | `claro`, `escuro`, `ambos` | `ambos` |
-| `ambiente` | `pessoa`, `empresa` | `pessoa` |
 | `ferramentas` | `mensagens`, `avisos`, `codigo`, `camera`, `qrcode`, `minio`, `pwa` | pergunta (novo projeto) |
 
 ## Estrutura do repositório
@@ -59,11 +58,9 @@ skill/mydesigner/
 install.sh                 instala em ~/.claude/skills/mydesigner
 ```
 
-## Origem e atualização
+## Atualização
 
-Os valores (cores, tamanhos, versões) são uma cópia do Recicle Uai em 07/11/2026. Os caminhos de código citados em `ferramentas.md` são relativos ao projeto de origem (`RecicleUai_2026/`). Quando o app mudar, atualize os arquivos de `references/` e reinstale com `sh install.sh`.
-
-A documentação visual completa do design system (páginas HTML) fica no repositório de documentação do Recicle Uai e **não faz parte** deste repositório.
+Os valores (cores, tamanhos, versões) são uma referência de 07/11/2026. Quando a stack mudar, atualize os arquivos de `skill/mydesigner/references/` e reinstale com `sh install.sh`.
 
 ## Licença
 
